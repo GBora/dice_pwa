@@ -1,0 +1,95 @@
+html {
+    background: rgb(79,78,78);
+    background: linear-gradient(0deg, rgba(79,78,78,1) 0%, rgba(6,6,6,1) 100%);
+    color: #eee;
+    height: 100vh;
+}
+
+.main  {
+    margin: 35px;
+    display: flex;
+}
+
+.buttons {
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button {
+    width: 100px;
+    margin: 0 auto 30px;
+    height: 50px;
+    border-radius: 5px;
+    background: rgb(172,166,168);
+    background: radial-gradient(circle, rgba(172,166,168,1) 0%, rgba(34,32,32,1) 100%);
+    color: #eee;
+    border: 1px solid #eee;
+    border-bottom: 5px solid #eee;
+    font-weight: 700;
+}
+
+.custom-container {
+    width: 100px;
+    margin: 0 auto 30px;
+}
+
+.custom-container input {
+    width: 100%;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    height: 50px;
+    background: radial-gradient(circle, rgb(100, 99, 99) 0%, rgb(54, 51, 51) 100%);
+    color: #2ECC71;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.custom-container button {
+    color: #2ECC71;
+    border: 1px solid #2ECC71;
+    border-bottom: 5px solid #2ECC71;
+}
+
+#d10 {
+    color: #2874A6;
+    border: 1px solid #2874A6;
+    border-bottom: 5px solid #2874A6;
+}
+
+#d2 {
+    color: #F4D03F;
+    border: 1px solid #F4D03F;
+    border-bottom: 5px solid #F4D03F;
+}
+
+#d20 {
+    color: #E74C3C;
+    border: 1px solid #E74C3C;
+    border-bottom: 5px solid #E74C3C;
+}
+
+#d100 {
+    color: #5B2C6F;
+    border: 1px solid #5B2C6F;
+    border-bottom: 5px solid #5B2C6F;
+}
+
+.result {
+    flex: 2;
+    flex-grow: 2;
+    font-size: 20px;
+    padding-top: 12.5px;
+    padding-left: 15px;
+}
+
+.add-button {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 100vw;
+    height: 30px;
+    display: none;
+}

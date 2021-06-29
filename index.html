@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico">  
+    <link rel="manifest" href="manifest.webmanifest">
+    <title>Free Dice PWA</title>
+    <link rel="stylesheet" href="./site.css">
+    <script src="./site.js"></script>
+</head>
+<body>
+    <button class="add-button">Add to home screen</button>
+    <main class="main">
+        <div class="buttons">
+            <button id="d2" onclick="throwDice(2)">D2</button>
+            <button onclick="throwDice(6)">D6</button>
+            <button id="d10" onclick="throwDice(10)">D10</button>
+            <button id="d20" onclick="throwDice(20)">D20</button>
+            <button id="d100" onclick="throwDice(100)">D100</button>
+            <div class="custom-container">
+                <input type="text" id="custom-dice">
+                <button id="dx" onclick="throwCustom()">Roll</button>
+            </div>
+        </div>
+        <div class="result">
+            Nothing yet.
+        </div>
+    </main>
+</body>
+</html>

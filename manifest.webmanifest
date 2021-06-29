@@ -1,0 +1,12 @@
+{
+    "background_color": "black",
+    "description": "Simple dice app for rpg with no adds.",
+    "display": "fullscreen",
+    "icons": [
+      {"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},
+      {"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}
+    ],
+    "name": "Free Dice PWA",
+    "short_name": "Free Dice",
+    "start_url": "https://xenodochial-wiles-0cca94.netlify.app/"
+}
