@@ -10,7 +10,6 @@ self.addEventListener('install', (e) => {
         '/favicon.ico',
         '/index.html',
         '/site.css',
-        '/site.js',
       ])),
     );
   });
