@@ -37,11 +37,11 @@ let throwD6D6 = () => {
     document.querySelector('.result').textContent = text; 
 }
 
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-      .register('/sw.js')
-      .then(() => { console.log('Service Worker Registered'); });
-  }
+// if ('serviceWorker' in navigator) {
+//     navigator.serviceWorker
+//       .register('/sw.js')
+//       .then(() => { console.log('Service Worker Registered'); });
+//   }
 
 window.addEventListener('beforeinstallprompt', (e) => {
     // Prevent Chrome 67 and earlier from automatically showing the prompt
