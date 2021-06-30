@@ -30,6 +30,13 @@ let throwCustom = () => {
     }
 }
 
+let throwD6D6 = () => {
+    let result1 = rollDice(6);
+    let result2 = rollDice(6);
+    let text = `D6/D6 rolled ${result1}${result2}`;
+    document.querySelector('.result').textContent = text; 
+}
+
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker
       .register('/sw.js')
