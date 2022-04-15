@@ -14,19 +14,36 @@
     <button class="add-button">Add to home screen</button>
     <main class="main">
         <div class="buttons">
-            <button id="d2" onclick="throwDice(2)">D2</button>
-            <button onclick="throwDice(6)">D6</button>
-            <button id="d10" onclick="throwDice(10)">D10</button>
-            <button id="d20" onclick="throwDice(20)">D20</button>
-            <button id="d100" onclick="throwDice(100)">D100</button>
-            <button onclick="throwD6D6()">D6/D6</button>
+            <div class="btn-container">
+                <button id="d2" onclick="throwDice(2)">D2</button>
+                <button id="d2" onclick="throw4Fudge()">4DF</button>
+            </div>
+            <div class="btn-container">
+                <button onclick="throwDice(6)">D6</button>
+                <button onclick="throwD6D6()">D6/D6</button>
+            </div>
+            <div class="btn-container">
+                <button onclick="throw2D6()">2D6</button>
+                <button onclick="throwExploding2D6()">2D6 Explosive</button>
+            </div>
+            <div class="btn-container">
+                <button id="d20" onclick="throwDice(20)">D20</button>
+                <button id="d20" onclick="throw2D20()">2D20</button>
+            </div>
+            <div class="btn-container">
+                <button id="d10" onclick="throwDice(10)">D10</button>
+                <button id="d100" onclick="throwDice(100)">D100</button>
+            </div>
+
             <div class="custom-container">
                 <input type="text" id="custom-dice">
                 <button id="dx" onclick="throwCustom()">Roll</button>
             </div>
         </div>
         <div class="result">
-            Nothing yet.
+            <div class="inner-result">
+                
+            </div>
         </div>
     </main>
 </body>
