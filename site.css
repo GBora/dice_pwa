@@ -1,6 +1,6 @@
 html {
     background: rgb(79,78,78);
-    background: linear-gradient(0deg, rgba(79,78,78,1) 0%, rgba(6,6,6,1) 100%);
+/*    background: linear-gradient(0deg, rgba(79,78,78,1) 0%, rgba(6,6,6,1) 100%);*/
     color: #eee;
     height: 100vh;
 }
